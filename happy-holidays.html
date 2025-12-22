@@ -1,102 +1,85 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Hudhud Logistics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
 
-<body style="margin:0; padding:0; background-color:#f4f4f4;">
+      <mj-text font-size="16px" line-height="25px" color="#333333" />
 
-  <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#f4f4f4">
-    <tr>
-      <td align="center">
+      <mj-button background-color="#1a73e8" color="#ffffff" border-radius="6px" />
+    </mj-attributes>
 
-        <table width="600" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="max-width:600px;">
+    <mj-style inline="inline">
+      .greeting-text {
+      font-family: 'Georgia, Times, serif';
+      font-size: 18px;
+      color: #1a1a1a;
+      text-align: center;
+      }
+    </mj-style>
+  </mj-head>
 
-          <!-- View in browser -->
-          <tr>
-            <td align="right" style="padding:10px 15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;">
-              If you can’t view this mailer,
-              <a href="PASTE_WEB_VERSION_LINK_HERE" style="color:#014ea1; text-decoration:underline;">
-                click here
-              </a>
-            </td>
-          </tr>
+  <!-- ORANGE BODY -->
+  <mj-body background-color="#ffffff">
 
-          <!-- Main Image -->
-          <tr>
-            <td align="center">
-              <img
-                src="https://raw.githubusercontent.com/saleshwly/image-hosting/main/happy-holiday-image.png"
-                alt="Happy Holiday"
-                width="600"
-                height="900"
-                style="display:block; width:600px; height:900px; border:0;"
-              />
-            </td>
-          </tr>
+    <mj-section padding="0" background-color="#ffffff">
+      <mj-column padding="0">
 
-          <!-- Footer -->
-          <tr>
-            <td align="center" style="padding:25px 20px; font-family:Arial, Helvetica, sans-serif; color:#333333;">
+        <mj-image src="https://raw.githubusercontent.com/saleshwly/image-hosting/main/Season%E2%80%99s%20greetings.png" alt="Season's Greetings" padding="0" fluid-on-mobile="true" width="600px" />
 
-              <!-- Contact Info -->
-              <p style="margin:0; font-size:14px; line-height:22px;">
-                Phone: +218-92-4834830 &nbsp;|&nbsp;
-                Email: sales@hwl.ly &nbsp;|&nbsp;
-                P.O.Box: 5897
-              </p>
+      </mj-column>
+    </mj-section>
 
-              <!-- Company line -->
-              <p style="margin:15px 0 12px; font-size:13px; color:#666666;">
-                Hudhud Logistics © 2025. All Rights Reserved.
-              </p>
+    <!-- Main Content (single white card) -->
+    <mj-section background-color="#f8f8f8ff" padding="40px 20px">
+      <mj-column>
 
-              <!-- Social Icons -->
-<!-- Social Icons -->
-<table cellpadding="0" cellspacing="0" align="center">
-  <tr>
+        <mj-text css-class="greeting-text">
+          Dear Partners,
+          <br />
+          <br />
+          As the year comes to a close, we warmly wish you peace, joy, and prosperity in the coming year. Thank you for your continued collaboration and support. <br />we look forward to achieving more together in the New Year. <br /><br />
+          Best regards,<br />
+          HudHud Logistics
+        </mj-text>
 
-    <!-- WhatsApp -->
-    <td style="padding:0 10px;">
-      <a href="https://wa.me/218924834830" target="_blank">
-        <img
-          src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
-          width="24"
-          height="24"
-          alt="WhatsApp"
-          style="display:block; border:0;"
-        />
-      </a>
-    </td>
+        <mj-spacer height="60px" />
 
-    <!-- Facebook -->
-    <td style="padding:0 10px;">
-      <a href="https://www.facebook.com/HudHudLogistics" target="_blank">
-        <img
-          src="https://img.icons8.com/color/48/000000/facebook-new.png"
-          width="24"
-          height="24"
-          alt="Facebook"
-          style="display:block; border:0;"
-        />
-      </a>
-    </td>
+        <mj-button href="https://hwl.ly/" background-color="#74202a" color="#ffffff" font-size="12px" padding="1px 1px">
+          Visit Our Website
+        </mj-button>
 
-  </tr>
-</table>
+      </mj-column>
+    </mj-section>
 
+    
+    <!-- Footer (single block, same background) -->
+    <mj-section background-color="#e4e3e3ff" padding="5px 20px">
+      <mj-column>
 
+        <mj-text font-size="14px" align="center" color="#555555">
+          Contact Us:<br />
+          Phone: +218-92-4834830<br />
+          Email:
+          <a href="mailto:sales@hwl.ly" style="color:#1a73e8;">sales@hwl.ly</a><br />
+          P.O. Box: 5897
+        </mj-text>
 
-            </td>
-          </tr>
+        <!-- ONE divider -->
 
-        </table>
+        <mj-divider border-width="1px" border-color="#b0b0b0" padding="20px 0" />
 
-      </td>
-    </tr>
-  </table>
+        <mj-text font-size="12px" align="center" color="#777777">
+          © 2025 Hudhud Logistics. All rights reserved.
+        </mj-text>
 
-</body>
-</html>
+        <mj-text font-size="12px" align="center" color="#999999">
+          <a href="mailto:info@hwl.ly" style="color:#999999; text-decoration:underline;">
+            Unsubscribe
+          </a>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
